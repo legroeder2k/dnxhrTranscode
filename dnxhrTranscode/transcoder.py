@@ -2,7 +2,7 @@ import argparse
 import os
 from subprocess import Popen
 
-from data.videoInformation import VideoInformation
+from dnxhrTranscode.videoInformation import VideoInformation
 
 def transcodeFile(inputfile, callargs):
     # Is our input path absolute or relative?

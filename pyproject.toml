@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dnxhrTranscode_SASCHA_HUCK"
+name = "dnxhrTranscode"
 version = "0.1.0"
 authors = [
     { name = "Sascha Huck", email="sascha@wirrewelt.de" },
@@ -18,4 +18,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = ""
+Homepage = "https://github.com/legroeder2k/dnxhrTranscode"
+Issues = "https://github.com/legroeder2k/dnxhrTranscode/issues"
+
+[project.scripts]
+dnxhrTranscode = "dnxhrTranscode:start"
